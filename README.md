@@ -1,7 +1,7 @@
 # Debian Spark #
-This project provides a docker file to build a Spark cluster on debian... The openjdk containers are to be deprecated soon.  Thus, the need for this project.
+This project provides a docker file to build a Spark cluster on debian... The openjdk containers are going to be deprecated soon.  Thus, the need for this project.
 
-The docker file is for Scala/Java and Spark.  In order to keep the distro light, we are not installing python and all the supporting packagges for Apache Spark.
+The docker file is for Scala/Java and Spark.  In order to keep the distro light, we are not installing python and all the supporting packages for Apache Spark.
 
 # Software Versions #
 * Debian Bookworm-Slim
