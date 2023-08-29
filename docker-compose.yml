@@ -50,7 +50,7 @@ services:
 networks:
   default:
     name: dev
-    external: true
+    external: false
 
 
 

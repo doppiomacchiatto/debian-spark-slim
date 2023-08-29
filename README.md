@@ -13,4 +13,7 @@ The docker file is for Scala/Java and Spark.  In order to keep the distro light,
 # Master & Workers #
 Use this image to start the Spark Master and the worker nodes with Docker Compose. (Development only)
 
+```shell
+sudo docker start -e SPARK_WORKLOAD=master spark-debian
+```
 Production loads - migrate docker compose to Kubernetes.
