@@ -25,7 +25,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 ENV SPARK_VERSION=3.4.1 \
 HADOOP_VERSION=3 \
 SPARK_HOME=/opt/spark 
-ENV SCALA_VERSION 2.13.11
+ENV SCALA_VERSION 2.12.18
 
 
 # curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
