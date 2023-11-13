@@ -14,3 +14,14 @@ The docker file is for Scala/Java and Spark.  In order to keep the distro light,
 Use this image to start the Spark Master and the worker nodes with Docker Compose. (Development only)
 
 Production loads - migrate docker compose to Kubernetes.
+## Build the Cluster ##
+Build the docker container with the following command.
+```shell
+docker build -t cluster-spark:<version> .
+```
+Next, start the cluster.
+## Start the Cluster ##
+
+```shell
+docker-compose -d up
+```
